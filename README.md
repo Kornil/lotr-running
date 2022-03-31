@@ -1,6 +1,7 @@
 # lotr-running
 
-This template should help get you started developing with Vue 3 in Vite.
+PWA for tracking running/cycling/walking/other following the hobbits journey in Middle-Earth.
+
 
 ## Recommended IDE Setup
 
