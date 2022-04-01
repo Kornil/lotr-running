@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>{{ currentProgress }} Km</h2>
+    <h2 id="currentProgress">{{ currentProgress }} Km</h2>
     <div class="input-container">
       <div>
         <input type="number" min="0" v-model="inputValue" />
@@ -8,7 +8,7 @@
         <button class="input-btn remove" @click="decreaseInputValue">-</button>
       </div>
       <div class="button-container">
-        <button @click="handleAddProgress">Add</button>
+        <button id="add-progress-btn" @click="handleAddProgress">Add</button>
       </div>
     </div>
   </div>
