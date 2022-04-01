@@ -3,7 +3,7 @@
     <h2>{{ currentProgress }} Km</h2>
     <div class="input-container">
       <div>
-        <input type="number" min="0" :value="inputValue" />
+        <input type="number" min="0" v-model="inputValue" />
         <button class="input-btn add" @click="increaseInputValue">+</button>
         <button class="input-btn remove" @click="decreaseInputValue">-</button>
       </div>
