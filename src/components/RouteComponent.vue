@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2>{{ milestone }}</h2>
-    <h3>Journey {{ progressPercent }}% completed</h3>
+    <h2 id="milestone">{{ milestone }}</h2>
+    <h3 id="progressPercent">Journey {{ progressPercent }}% completed</h3>
   </div>
 </template>
 
