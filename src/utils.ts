@@ -16,5 +16,5 @@ export const calculateRoutePercent = (value: number): number => {
 
   const result = Number(((value / totalRoute) * 100).toFixed(2));
 
-  return result;
+  return result > 100 ? 100 : result;
 };
